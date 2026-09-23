@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# CAD
+*.FCStd1
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+
+# Build outputs (sources are committed, generated artifacts are not)
+/build/
+/dist/
+
+# Local measurement data — may include performer photos/data, never commit
+/measurements/local/
