@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2026 Illini Drumline contributors
+# SPDX-License-Identifier: MIT
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2026 Illini Drumline contributors
+# SPDX-License-Identifier: MIT
+name: Documentation issue
+description: Report an error, a gap, or an ambiguity in the documentation.
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or file
+      description: Path or link to the document.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+    validations:
+      required: false

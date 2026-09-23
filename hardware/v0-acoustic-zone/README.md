@@ -1,3 +1,6 @@
+<!-- SPDX-FileCopyrightText: 2026 Illini Drumline contributors -->
+<!-- SPDX-License-Identifier: CERN-OHL-S-2.0 -->
+
 # v0 — Acoustic zone module
 
 A single 12" octagonal gum-rubber practice pad, built to match the measured Evans RealFeel

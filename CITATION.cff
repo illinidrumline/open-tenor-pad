@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: 2026 Illini Drumline contributors
+# SPDX-License-Identifier: CC-BY-4.0
+cff-version: 1.2.0
+message: "If you use this design or its documentation, please cite it as below."
+title: "Open Tenor Pad"
+abstract: "Open-source, documented hardware for a marching tenor practice pad: a buildable, sensor-ready practice surface designed to feel as close as possible to the reference."
+type: software
+authors:
+  - family-names: "Somers"
+    given-names: "Nathan"
+    alias: "pngdeity"
+    affiliation: "Illini Drumline"
+version: "0.1.0-design"
+date-released: "2026-09-22"
+license: "CERN-OHL-S-2.0"
+repository-code: "https://github.com/illinidrumline/open-tenor-pad"
+url: "https://github.com/illinidrumline/open-tenor-pad"
+keywords:
+  - marching percussion
+  - tenor drums
+  - practice pad
+  - open hardware
+  - drumline

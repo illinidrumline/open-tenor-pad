@@ -1,3 +1,6 @@
+<!-- SPDX-FileCopyrightText: 2026 Illini Drumline contributors -->
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # RealFeel measurement protocol
 
 Capture the reference numbers that the materials spec currently estimates, so the v0 build can be

@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2026 Illini Drumline contributors
+# SPDX-License-Identifier: MIT
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and build reports
+    url: https://github.com/illinidrumline/open-tenor-pad/discussions
+    about: Ask questions, share builds, and float ideas.
+  - name: Materials decisions
+    url: https://github.com/illinidrumline/open-tenor-pad/blob/main/docs/materials-decisions.md
+    about: Read the materials decisions before proposing a material change.
+  - name: Measurement protocol
+    url: https://github.com/illinidrumline/open-tenor-pad/blob/main/docs/realfeel-measurement-protocol.md
+    about: Capture reference numbers before claiming a change to feel.

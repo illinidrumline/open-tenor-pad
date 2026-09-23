@@ -1,0 +1,45 @@
+# SPDX-FileCopyrightText: 2026 Illini Drumline contributors
+# SPDX-License-Identifier: MIT
+name: Build report
+description: Report a completed or in-progress build of the pad.
+title: "[Build] "
+labels: ["build-report"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for building. Please include measured values, not impressions."
+  - type: input
+    id: revision
+    attributes:
+      label: Design revision
+      description: Git tag or commit you built from.
+    validations:
+      required: true
+  - type: textarea
+    id: bom
+    attributes:
+      label: Bill of materials
+      description: Materials actually used, with supplier and durometer or gauge where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: measured
+    attributes:
+      label: Measured values
+      description: Dimensions, mass, and any protocol values such as rebound coefficient or contact time.
+    validations:
+      required: false
+  - type: textarea
+    id: deviations
+    attributes:
+      label: Deviations from the design
+      description: Anything you changed, and why.
+    validations:
+      required: false
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photos
+      description: Drag in images of the build.
+    validations:
+      required: false

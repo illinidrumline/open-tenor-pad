@@ -1,3 +1,6 @@
+<!-- SPDX-FileCopyrightText: 2026 Illini Drumline contributors -->
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # Materials decisions
 
 Goal: build a practice pad that feels as close as possible to the Evans RealFeel. This document

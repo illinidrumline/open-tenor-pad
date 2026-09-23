@@ -1,3 +1,6 @@
+<!-- SPDX-FileCopyrightText: 2026 Illini Drumline contributors -->
+<!-- SPDX-License-Identifier: CERN-OHL-S-2.0 -->
+
 # Hardware
 
 Design files for the Open Tenor Pad.

@@ -1,0 +1,35 @@
+# SPDX-FileCopyrightText: 2026 Illini Drumline contributors
+# SPDX-License-Identifier: MIT
+name: Measurement data
+description: Submit measurements from a reference pad or a coupon.
+title: "[Measurement] "
+labels: ["measurement"]
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: Measured subject
+      description: Reference unit (make and model), or a description of the coupon.
+    validations:
+      required: true
+  - type: input
+    id: conditions
+    attributes:
+      label: Conditions
+      description: Ambient temperature and the tooling or method used.
+    validations:
+      required: true
+  - type: textarea
+    id: values
+    attributes:
+      label: Values
+      description: Protocol identifiers (A1-A8, B1-B6, C1-C5) and their values.
+    validations:
+      required: true
+  - type: textarea
+    id: raw
+    attributes:
+      label: Raw data
+      description: Link to raw data, video, or notes.
+    validations:
+      required: false

@@ -1,3 +1,6 @@
+<!-- SPDX-FileCopyrightText: 2026 Illini Drumline contributors -->
+<!-- SPDX-License-Identifier: MIT -->
+
 # Firmware
 
 Sensor firmware for the electronic tier (v2). Empty for now.

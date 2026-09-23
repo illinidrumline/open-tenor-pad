@@ -1,5 +1,10 @@
 # Open Tenor Pad
 
+[![License: CERN-OHL-S-2.0](https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/illinidrumline/open-tenor-pad.svg?include_prereleases&label=release&color=orange)](https://github.com/illinidrumline/open-tenor-pad/releases)
+[![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey.svg)](docs/)
+[![Status: design baseline](https://img.shields.io/badge/status-design%20baseline-orange.svg)](CHANGELOG.md)
+
 Open-source hardware for a marching tenor practice pad: a documented, buildable, sensor-ready
 practice surface designed to feel as close as possible to the real thing.
 
@@ -33,16 +38,27 @@ pads, publishes the numbers, and builds up from a single zone to a full electron
 
 - [Materials decisions](docs/materials-decisions.md) — what we build the pad from, and why
 - [RealFeel measurement protocol](docs/realfeel-measurement-protocol.md) — how to capture the reference numbers
+- [Prior art and design freedom](docs/prior-art-and-design-freedom.md) — provenance and patent posture
+- [Changelog](CHANGELOG.md) — what changed, and when
 
-## Licensing (proposed, pending confirmation)
+## Licensing
 
-| Scope | License |
-|---|---|
-| Hardware design files | CERN-OHL-S-2.0 |
-| Documentation | CC BY 4.0 |
-| Firmware | MIT |
+| Scope | Licence | Text |
+|---|---|---|
+| Hardware design files | CERN-OHL-S-2.0 | [LICENSE](LICENSE) |
+| Documentation | CC BY 4.0 | [LICENSES/CC-BY-4.0.txt](LICENSES/CC-BY-4.0.txt) |
+| Firmware and workflows | MIT | [LICENSES/MIT.txt](LICENSES/MIT.txt) |
 
-No non-commercial or no-derivatives terms.
+No non-commercial or no-derivatives terms. CERN-OHL-S-2.0 is strongly reciprocal: if you distribute
+hardware built from these files, you must make the corresponding design files available under the
+same licence.
+
+## Project standards
+
+- [Contributing](CONTRIBUTING.md) — how to build, measure, and submit changes
+- [Safety](SAFETY.md) — shop and material hazards
+- [Trademarks and non-affiliation](TRADEMARK.md) — marks, endorsements, and patents
+- [Citation metadata](CITATION.cff)
 
 ## Trademarks
 
@@ -50,4 +66,4 @@ This project is not affiliated with Evans, D'Addario, Vic Firth, Offworld Percus
 University of Illinois. Do not distribute hardware bearing the University of Illinois Block I,
 the "Illinois" wordmark, or Illini Drumline marks without approval from the UIUC Trademark and
 Licensing Office (licensing@illinois.edu). Distributed physical goods bearing university marks
-are merchandise.
+are merchandise. See [TRADEMARK.md](TRADEMARK.md).

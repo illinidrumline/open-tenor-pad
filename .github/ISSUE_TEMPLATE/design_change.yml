@@ -1,0 +1,40 @@
+# SPDX-FileCopyrightText: 2026 Illini Drumline contributors
+# SPDX-License-Identifier: MIT
+name: Design change
+description: Propose a change to the hardware design or to a materials decision.
+title: "[Design] "
+labels: ["design"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Playing surface
+        - Base and core
+        - Mounting
+        - Geometry and layout
+        - Electronics
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale and evidence
+      description: Measurements, sources, or test results that support the change.
+    validations:
+      required: true
+  - type: checkboxes
+    id: licensing
+    attributes:
+      label: Licensing
+      options:
+        - label: I agree to license this contribution under the project's CERN-OHL-S-2.0 hardware licence.
+          required: true
